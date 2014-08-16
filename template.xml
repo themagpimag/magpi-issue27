@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+	<template category="Own Templates">
+		<name>4-pages-template</name>
+		<file>MashBerry.sla</file>
+		<tnail>4-pages-templatetn.png</tnail>
+		<img>4-pages-template.png</img>
+		<psize>A4, portrait</psize>
+		<color></color>
+		<descr></descr>
+		<usage></usage>
+		<scribus_version>1.4.1.svn</scribus_version>
+		<date>2014-08-07</date>
+		<author></author>
+		<email></email>
+	</template>
+</templates>
