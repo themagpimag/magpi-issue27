@@ -1,0 +1,33 @@
+// MagPi Game
+PROC Setup
+  CYCLE
+    PROC CheckControls
+    PROC ScreenUpdate
+  REPEAT
+END
+
+DEF PROC CheckControls
+  UpKey = scanKeyboard(scanUp)
+  DownKey = scanKeyboard(scanDown)
+  LeftKey = scanKeyboard(scanLeft)
+  RightKey = scanKeyboard(scanRight)
+  IF UpKey THEN ShipY = ShipY + 1
+  IF DownKey THEN ShipY = ShipY - 1
+  IF LeftKey THEN ShipX = ShipX - 1
+  If RightKey THEN ShipX = ShipX + 1
+ENDPROC
+
+DEF PROC ScreenUpdate
+  plotSprite(Ship, ShipX, ShipY, 0)
+  UPDATE
+ENDPROC
+
+DEF PROC Setup
+  HGR
+  updateMode = 0
+  ShipX = 0
+  ShipY = gHeight / 2
+  Ship = newSprite(1)
+  loadSprite("Player2.bmp", Ship, 0)
+  setSpriteTrans(Ship, 255, 0, 255)
+ENDPROC

@@ -1,0 +1,146 @@
+// MagPi Game
+PROC Setup
+CYCLE 
+  PROC CheckControls
+  PROC DrawShip
+  PROC DrawEnemy
+  PROC DrawBullet
+  UPDATE 
+REPEAT 
+END 
+//
+DEF PROC DrawBullet
+IF Shot(1) > gWidth THEN 
+  hideSprite (Shot(0))
+  Shot(3) = 0
+  Fire = 0
+ENDIF 
+IF Shot(3) THEN 
+  Shot(1) = Shot(1) + 6
+  plotSprite (Shot(0), Shot(1), Shot(2), 0)
+  Hit = spriteCollidePP (Shot(0), 2)
+  IF Hit > 0 AND Hit <= 64 THEN 
+    Enemy(Hit - 1, 3) = 0
+    hideSprite (Hit)
+    hideSprite (Shot(0))
+    Shot(3) = 0
+    Fire = 0
+  ENDIF 
+ENDIF 
+ENDPROC 
+//
+DEF PROC Bullet
+Fire = 1
+Shot(1) = ShipX + getSpriteW (Ship) + 8
+Shot(2) = ShipY + getSpriteH (Ship) / 2 - 10
+Shot(3) = 1
+ENDPROC 
+//
+DEF PROC DrawEnemy
+FOR eID = 0 TO EnemyMax CYCLE 
+  IF Enemy(eID, 3) THEN 
+    Enemy(eID, 1) = Enemy(eID, 1) - Enemy(eID, 6)
+    EY = Enemy(eID, 2) + COS (Enemy(eID, 1)) * Enemy(eID, 4) * 10
+    plotSprite (Enemy(eID, 0), Enemy(eID, 1), EY, 0)
+  ENDIF 
+REPEAT 
+ENDPROC 
+//
+DEF PROC DrawShip
+plotSprite (Ship, ShipX, ShipY, ShipID)
+ENDPROC 
+//
+DEF PROC CheckControls
+ShipID = 1
+UpKey = scanKeyboard (scanUp)
+DownKey = scanKeyboard (scanDown)
+LeftKey = scanKeyboard (scanLeft)
+RightKey = scanKeyboard (scanRight)
+SpaceKey = scanKeyboard (scanSpace)
+IF SpaceKey AND  NOT Fire THEN 
+  PROC Bullet
+ENDIF 
+IF UpKey AND ShipY <= (gHeight - getSpriteH (Ship)) THEN 
+  ShipY = ShipY + 4
+  ShipID = 2
+ENDIF 
+//
+IF DownKey AND ShipY >= 0 THEN 
+  ShipY = ShipY - 4
+  ShipID = 0
+ENDIF 
+//
+IF LeftKey AND ShipX >= 0 THEN 
+  ShipX = ShipX - 4
+ENDIF 
+//
+IF RightKey AND ShipX <= gWidth / 2 THEN 
+  ShipX = ShipX + 2
+ENDIF 
+//
+ENDPROC 
+//
+DEF PROC Setup
+HGR 
+updateMode = 0
+ShipX = 0
+ShipY = gHeight / 2
+Ship = newSprite (3)
+loadSprite ("Player1.bmp", Ship, 0)
+loadSprite ("Player2.bmp", Ship, 1)
+loadSprite ("Player3.bmp", Ship, 2)
+setSpriteTrans (Ship, 255, 0, 255)
+ShipID = 0
+EnemyMax = 63
+eID = 0
+EnemyX = 0
+EnemyY = 0
+EnemyActive = 1
+EnemyVariation = 0
+EnemyScore = 50
+EnemySpeed = 0
+DIM Enemy(EnemyMax, 6)
+DIM Rock(EnemyMax)
+//
+FOR num = 0 TO EnemyMax CYCLE 
+  Rock(num) = newSprite (1)
+  loadSprite ("BigRock.bmp", Rock(num), 0)
+  setSpriteTrans (Rock(num), 255, 0, 255)
+REPEAT 
+//
+EnemyCount = 0
+UNTIL EnemyCount > EnemyMax CYCLE 
+  READ EnemyX
+  READ EnemyY
+  READ EnemyVariation
+  READ EnemyScore
+  READ EnemySpeed
+  EnemyScore = EnemyScore * EnemySpeed
+  DATA 1280, 100, 3, 50, 2
+  DATA 1280, 500, -3, 50, 2
+  DATA 4000, 366, 4, 50, 3
+  DATA 4000, 230, -4, 50, 3
+  DATA 6000, 100, 6, 50, 3
+  DATA 6000, 500, -6, 50, 3
+  DATA 11000, 400, 5, 50, 4
+  DATA 11000, 300, -5, 50, 4
+  //
+  FOR num = 0 TO 7 CYCLE 
+    Enemy(EnemyCount + num, 0) = Rock(EnemyCount + num)
+    Enemy(EnemyCount + num, 1) = EnemyX + num * getSpriteW (Rock(0))
+    Enemy(EnemyCount + num, 2) = EnemyY
+    Enemy(EnemyCount + num, 3) = EnemyActive
+    Enemy(EnemyCount + num, 4) = EnemyVariation
+    Enemy(EnemyCount + num, 5) = EnemyScore
+    Enemy(EnemyCount + num, 6) = EnemySpeed
+  REPEAT 
+  //
+  EnemyCount = EnemyCount + 8
+REPEAT 
+DIM Shot(3)
+Shot(0) = newSprite (1)
+loadSprite ("Bullet.bmp", Shot(0), 0)
+setSpriteTrans (Shot(0), 255, 0, 255)
+Fire = 0
+ENDPROC 
+//
