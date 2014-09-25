@@ -8,16 +8,11 @@ Getting started
 
 I'm going to start by assuming you have a Raspberry Pi running Raspbian and can logon as user pi and start the desktop (or have the desktop already running). So we'll get going by installing Minecraft and testing that it works. 
 
-Open an LXTerminal window and enter the following commands:
+sudo apt-get -y install minecraft-pi
+That will install the Minecraft personal edition and the python API library.
 
-cd ~
-wget https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz
-tar xavf minecraft-pi.0.1.1.tar.gz
-
-Make a note of /home/pi/mcpi/api/python as we'll need that later. Test minecraft with the following command:
-
-cd ~/mcpi
-./minecraft-pi
+Open a window and type
+minecraft-pi 
 
 You should get the familiar screen for Minecraft and can build a new world. Have a drive around and when you're done press TAB to get control of the cursor. We can switch to the LXTerminal window and close down Minecraft by pressing the CTRL and C keys together. We'll come back to Minecraft later when we're ready to run the python program that is going to build our structure in the virtual world.
 
@@ -46,11 +41,8 @@ Glueing it all together
 
 To get a QR code built in Minecraft we're going to use the python application programming interface (API). That lets us control our Minecraft world with a program, we can discover Steve's co-ordinates (Steve is "the Protagonist" or in other words your playable character). We can teleport Steve from one location to another. We can add or delete blocks in the world. So we've got the data built from qrencode and sed and we've got a method to read that data and build some blocks in our Minecraft world. Lets look at the python program in detail.
 
-Import the sys package and add the API directory to the system path (so that python can find the Minecraft python API packages).
-
 #!/usr/bin/python
 import sys
-sys.path.insert(1,'/home/pi/mcpi/api/python')
 
 Now we can import the API packages to connect to the Minecraft world and build blocks.
 
@@ -105,12 +97,12 @@ mc.player.setPos(pPos.x,pPos.y,pPos.z)
 
 To get everything running we need to start Minecraft then when it's running start our python program. So that needs two LXterminal windows. In the first issue the following commands:
 
-cd ~/mcpi && ./minecraft-pi
+minecraft-pi
 
 Login to your Minecraft world and find an area without too much terrain (we don't want trees blocking our view) use the ALT+TAB keys to switch to the second LXterminal window. In that second window issue the following commands:
 
 cd ~/python && chmod 755 ./mc.qr.py && ./mc.qr.py 
 
-The screen will got blank (because the last few blocks are built on top of Steve). When it's done drive round to find your QR code in the Minecraft world. I found I needed to build a tower of stone (or dirt) to get Steve positioned so that the QR code was square on and filled the top half of the screen without any keystoning effects. I was then able to scan it with my smart phone.
+The screen will go blank (because the last few blocks are built on top of Steve). When it's done drive round to find your QR code in the Minecraft world. I found I needed to build a tower of stone (or dirt) to get Steve positioned so that the QR code was square on and filled the top half of the screen without any keystoning effects. I was then able to scan it with my smart phone.
 
 I'd like to thank Konrad (my 14 year old son and Minecraft expert) for his patience and advice. I started building the code with diamond (block id = 57) and obsidian. Konrad suggested using snow for better contrast. He also grabbed the screen photos and published them on http://reddit.com.
