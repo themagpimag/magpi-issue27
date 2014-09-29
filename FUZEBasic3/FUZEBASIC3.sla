@@ -1169,7 +1169,7 @@
             <ITEXT CH="Next issue will see the final part in this series. I hope to wrap things up with a few more collisions, scoring plus Start and Game Over scenes."/>
             <para PARENT="Body Text"/>
             <para PARENT="Body Text"/>
-            <ITEXT CH="If you have not already noticed, in the next isue we are, in association with the very nice people at The MagPi, running a competition for the best game entry submitted using FUZE BASIC on a Raspberry Pi. Remember, you can download the FUZE BASIC boot image and Programmer's Reference Guide for free from  the Resources page at "/>
+            <ITEXT CH="If you have not already noticed, in the next issue we are, in association with the very nice people at The MagPi, running a competition for the best game entry submitted using FUZE BASIC on a Raspberry Pi. Remember, you can download the FUZE BASIC boot image and Programmer's Reference Guide for free from  the Resources page at "/>
             <ITEXT FCOLOR="Blue" CH="http://www.fuze.co.uk"/>
             <ITEXT CH="."/>
             <para PARENT="Body Text"/>
