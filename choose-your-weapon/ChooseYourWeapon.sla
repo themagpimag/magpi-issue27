@@ -23,14 +23,14 @@
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" RGB="#bd1143" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" RGB="#bd115c" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <COLOR NAME="orange" RGB="#e3711a" Spot="0" Register="0"/>
         <COLOR NAME="ras" RGB="#bd1143" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
@@ -38,7 +38,7 @@
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
         <STYLE NAME="Body Text" ALIGN="3" LINESPMode="0" LINESP="14" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -329,7 +329,7 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" # In this case Left Shift, joystick"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" # button C, A and the key C."/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" # buttons C and A and the key C."/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" # Map the triggers and bumpers in the "/>
             <para PARENT="Code"/>
@@ -350,19 +350,22 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" b=BTN_C"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" x=BTN_EXTRA"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" x=BTN_"/>
+            <ITEXT CH="A"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" y=KEY_C"/>
             <para PARENT="Code"/>
             <ITEXT CH=" #"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" lb=BTN_RIGHT"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" lb=KEY_"/>
+            <ITEXT CH="LEFT"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" rb=KEY_SPACE"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" rb="/>
+            <ITEXT CH="KEY_RIGHT"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" lt=KEY_Z"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" rt=BTN_LEFT"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cool Black" CH=" rt=KEY_SPACE"/>
             <para PARENT="Code"/>
             <ITEXT CH=" #"/>
             <para PARENT="Code"/>
@@ -399,7 +402,7 @@
             <ITEXT CPARENT="Default Character Style" CH="The file sets up the DPad as buttons and triggers.  The next few sections are used to map the right analogue stick as absolute values on the x2 and y2 axes and the left analogue stick as  mouse relative values on the x1 and y1 axes. "/>
             <para PARENT="Body Text"/>
             <para PARENT="Body Text"/>
-            <ITEXT CPARENT="Default Character Style" CH="It maps the four coloured buttons a, b, x and y and sets each one as a different key, or equivalent joystick button, in this case Left Shift, joystick button C, the A and C key."/>
+            <ITEXT CPARENT="Default Character Style" CH="It maps the four coloured buttons a, b, x and y and sets each one as a different key, or equivalent joystick button, in this case Left Shift, joystick buttons C and A, and the C key."/>
             <para PARENT="Body Text"/>
             <para PARENT="Body Text"/>
             <ITEXT CPARENT="Default Character Style" CH="It also maps the triggers and bumpers (lt, rt, lb, rb) in the same way. "/>
