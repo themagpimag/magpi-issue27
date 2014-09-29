@@ -1,0 +1,12 @@
+This month’s issue is packed cover to cover with something for just about everyone!  
+
+Are you tired of controlling your Raspberry Pi with the same old mouse and keyboard?  Have you ever wished you could have the ergonomic feel of a console controller in your hands whilst playing some of those retro games we have written about in past issues?  If you answered ‘yes’ to either of these questions, why not take a look at Mark Routelegde’s fantastic article describing how to do just that.
+
+Alex Clews talks us through the use of Git, a free version control software that we use here at the MagPi to ensure that all of the team work on the most up to date copy of the issue.  This is a great read and we hope it may convince some of our readers to join the MagPi team and give it a go.
+
+As you can see from our cover, we return to the world of Minecraft in Dougie Lawson’s clever article on building QR code structures inside the game.  We have more from ModMyPi, a great father and  son story on building and funding a PCB through Kickstarter and return for part three of FUZE BASIC.
+
+If you want even more form the MagPi this month then why not join us on the 4th of October at the Bristol Digimakers event (see this month’s Events page) where we will have our own stall and will be jointly sponsoring a competition at the event. It’s your opportunity to win Volumes 1 and 2 of The MagPi from us, as well as the famous Blue Raspberry Pi’s that RS have donated to the event organisers. The Digimakers events feature all sorts of interesting projects, with workshops attend and opportunities to try out a wide variety of Raspberry Pi gadgets. 
+
+We look forward to seeing you there.
+
