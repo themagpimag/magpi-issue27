@@ -1,0 +1,54 @@
+﻿The values contained in simple variables, such as int or float, can be added together using the mathematical operators that were introduced in the C Cave article in Issue 4 of The MagPi.  This functionality can be extended to objects by the principle of operator overloading.  Before continuing, it may be helpful to read through the introduction to C++ classes in Issues 23 and 24 of The MagPi.
+
+Operators come in many shapes and sizes.  There are mathematical operators, binary operators, relational operators, pointer syntax, stream operators, etc..  Each of these can be implemented as a function that deals with objects of a particular class.  Since an operator that deals with objects is a function, the function could perform complicated operations to load data from disk or over the network before returning the result.  Hopefully, the author of the C++ class has written sensible operator functions or provided documentation.
+
+This tutorial introduces two simple mathematical and stream operator functions.  The tutorial assumes that the g++ and make have been installed.  Using the latest Raspbian image, these can be installed by typing:
+
+ sudo apt-get install -y g++ make
+
+ 
+Two dimensional vector
+
+The power of operator overloading can be demonstrated with a simple numerical example.  In some  mathematical problems one might have to use a two dimensional vector, which has x and y components.  From Issues 23 and 24, it is clear that a class can be written that contains x and y components as data members of a class.  However, one would ideally like to be able to add vectors together or subtract them in a straight forward manner.  This can be achieved by writing functions for the operators + and -.  Create a new file called TwoVector.h and add the source code at the top of the next page.  Then save the file.
+
+
+
+
+
+
+This class declaration includes three operator functions that operate on objects: to add, subtract and assign values.  The class declaration also contains a constructor. The default values given in the constructor declaration are used if parameters are omitted when the constructor is called.  There is a function to return the resultant of the vector, a function to return the angle of the vector in the x-y plane, a function to allow the vector to be rotated about itself and two functions that return the values of x and y components respectively.  The class also contains two private data members that are present to store the values of the x and y components of the vector.
+
+The const keyword is carefully used, to allow appropriate usage of the objects created.  For example, functions that do not change values stored in the data members can safely be const.  The const member functions are indicated by the keyword const, which is present just before the semicolon in each const function definition.  These functions can be called from a const object of TwoVector type or from a normal object of TwoVector type.  The operator functions use const references as parameters to avoid unnecesary copy constructors and to indicate that the operator will not change this parameter. 
+
+Now that the header file has been created, the implementation of the other member functions of the TwoVector class is needed.  Therefore, create a new file called TwoVector.cpp and add:
+
+
+When a member function or data member is private within a class definition, then it can be accessed directly by any objects instantiated from the class but cannot be accessed from objects that are instantiated from other classes or from functions outside class definitions.  There is an exception to this, which is discussed later in this tutorial.  Writing operator functions as class member functions simplifies the content of the operator member functions, since the private data members can be directly accessed.
+
+The assignment operator is the simplest of the three operator functions.  The values stored in the x and y components of the vector on the right hand side (rhs) of x=y are assigned to the data members of the object (which is on the left hand side of this equation).  The this pointer is used to refer to this specific instantiation of the class.  The addition and subtraction operators use the assignment operator to create a copy of the object before the values of the data members are changed.  When the object is instantiated without arguments, the default constructor parameters are used.  Then the assignment function is called to assign the values.  For the operators + and - the equations are z=x+y and z=x-y, where all of the object types are the same, y is passed into the member function as the const reference rhs and x refers to the object for which the member function is called.
+
+The final piece of C++ needed to produce a working example is the main() function.  Create a new file called main.cpp and add the C++ code at the top of the next page.
+
+
+
+The main() function makes use of the three, four, five triangle, to help to make the value of the resultant and the angle more intuitive during debugging.  The example creates a vector called vec1 that has an x component of three and a y component of four.  This implies that the resultant is five.  The values in vec1 are then assigned to the values of vec2, which is therefore a numerical copy of the first vector.  The components of vec2 are printed, the resultant of vec1 is printed and the angle in the x-y plane is printed for vec2.  The function angle() returns the  value in radians, which is then converted into degrees before being printed on the screen.  The vector vec2 is then rotated by 90 degrees and the resulting angle in the x-y plane is printed.  Finally, vec2 is subtracted from vec1 and the resulting x and y components are printed on the screen.  Once the operator functions have been written, the mathematical usage of the operators becomes intuitive.
+
+To complete the example program and produce an executable that can be run, create a file called Makefile in the same directory as the other C++ source files and append: 
+
+where the lines should be intended by single tab characters and there should be no spaces in front of any other lines.  Save the file and then type make to build the executable and ./op to run it.  More information on Makefiles can be found in Issue 7 of The MagPi.
+
+
+Output stream operators
+
+In the main() function in the last example, each component of the vectors is printed by retreiving the value of the component and then printing it to the screen.   While this works, implementing these function calls in many places can quickly become a waste of time.  Therefore, writing a function that allows an object to be printed directly, e.g.
+
+std::cout << vec1 << std::endl;
+
+may save time.  Unlike the mathematical functions, this operator function is not part of the class.  However, since it relates to the class it is useful to put it into the same header file as the class definition of the TwoVector.  Open the TwoVector.h file and modify the file to include the two output stream lines given below:
+
+Then add the iostream header file at the top:
+
+The output stream operator function is not part of the class TwoVector.  To print the values stored in the private data members of the TwoVector object, the output stream function needs to access these values.  While this is possible by calling the x() and y() functions to retrieve these values, there is a small overhead for these function calls.  Therefore, to make the code slightly simpler the output stream function is defined as a friend within the class declaration.  This means that it will be able to access the private data members as if they were public data members.  The friend keyword can be used with classes as well as functions.  The friend keyword also enables access to protected functions or data members and private functions.
+Now open the TwoVector.cpp file and at the end of the file add:
+This is the implementation that prints the values into the stream.  Next, try replacing the lines in the main.cpp file that print the components with 
+std::cout << vec1 << std::endl;
