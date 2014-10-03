@@ -228,13 +228,13 @@
             <ITEXT CH="Two dimensional vector"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The power of operator overloading can be demonstrated with a simple example.  In some simple mathematical problems one might have to use a two dimensional vector, which has x and y component values.  From Issues 23 and 24, it is clear that a class can be written that contains the x and y values as data members.  However, one would ideally like to be able to add vectors together or subtract them.  This can be achieved by writing functions for the operators "/>
+            <ITEXT CH="The power of operator overloading can be demonstrated with a simple numerical example.  In some  mathematical problems one might have to use a two dimensional vector, which has x and y components.  From Issues 23 and 24, it is clear that a class can be written that contains x and y components as data members of a class.  However, one would ideally like to be able to add vectors together or subtract them in a straight forward manner.  This can be achieved by writing functions for the operators "/>
             <ITEXT FONT="Monaco Regular" CH="+"/>
             <ITEXT CH=" and "/>
             <ITEXT FONT="Monaco Regular" CH="-"/>
             <ITEXT CH=".  Create a new file called "/>
             <ITEXT FONT="Monaco Regular" CH="TwoVector.h"/>
-            <ITEXT CH=" and append to it the source code at the top of the next page."/>
+            <ITEXT CH=" and add the source code at the top of the next page.  Then save the file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -242,20 +242,20 @@
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This class declaration includes three operator functions: to add objects, subtract objects and assign objects.  There class declaration also contains a constructor with default values if they are omitted, a function to return the resultant of the vector, a function to return the angle of the vector in the x-y plane, a function to allow the vector to be rotated about itself and two functions that return the values of x and y components respectively.  The class also contains two private data members that are present to store the values of the x and y components of the vector."/>
+            <ITEXT CH="This class declaration includes three operator functions that operate on objects: to add, subtract and assign values.  The class declaration also contains a constructor. The default values given in the constructor declaration are used if the values are omitted when the constructor is called.  There is a function to return the resultant of the vector, a function to return the angle of the vector in the x-y plane, a function to allow the vector to be rotated about itself and two functions that return the values of x and y components respectively.  The class also contains two private data members that are present to store the values of the x and y components of the vector."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The const keyword is carefully used, to allow appropriate usage of the objects created.  For example, functions that do not change values stored in the classes data members can safely be const, since they do not change the status of the class data members.  The references that are passed into the operator functions are also const, since the objects on the right-hand side of the equation should not be modified.  For example, for the simple equation"/>
+            <ITEXT CH="The const keyword is carefully used, to allow appropriate usage of the objects created.  For example, functions that do not change values stored in the classes data members can safely be const, since they do not change the status of the class data members.  The const member functions are indicated by the keyword const, which is present just before the semicolon in each function const function definition.  These functions can be called from a const object of TwoVector type or from a normal object of TwoVector type.  The operator functions use const references as parameters to avoid unnecesary copy constructors and to indicate that the operator will not change this parameter.  In the equation,"/>
             <para PARENT="Body text"/>
             <ITEXT CH="  "/>
             <para PARENT="Body text"/>
             <ITEXT CH=" z = x + y;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="it is a reasonable suggestion that the values of x and y should not change.  Therefore, the const keyword is present to make sure that these references are not changed."/>
+            <ITEXT CH="it is a reasonable suggestion that the values of x and y should not change. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now that the header file has been created, the implementation of the other member functions of the class is needed.  Therefore, create a new file called TwoVector.cpp and append to it:"/>
+            <ITEXT CH="Now that the header file has been created, the implementation of the other member functions of the TwoVector class are needed.  Therefore, create a new file called TwoVector.cpp and append to it:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
