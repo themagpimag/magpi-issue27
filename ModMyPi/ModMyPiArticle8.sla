@@ -26,13 +26,13 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LINESP="16" FONT="FreeSans Regular" FONTSIZE="12" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="Body subtitle" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -197,224 +197,221 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="235.007874015748" WIDTH="381.977086614173" HEIGHT="77.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="Body title" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="24" CH="GPIO Sensing: Using 1-Wire temperature sensors - Part 2"/>
+            <ITEXT FONTSIZE="24" CH="GPIO Sensing: HC-SR04 Ultrasonic Range Finder"/>
             <trail PARENT="Body title" LINESP="25"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
-            <ITEXT CH="1-Wire sensors"/>
+            <ITEXT CH="In previous tutorials we've outlined temperature sensing, PIR motion controllers and buttons and switches, all of which can plug directly into the Raspberry Pi's GPIO ports. The HC-SR04 ultrasonic range finder is very simple to use, however the signal it outputs needs to be converted from 5V to 3.3V so as not to damage our Raspberry Pi! We'll introduce some Physics along with Electronics in this tutorial in order to explain each step!"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="What you'll need:"/>
+            <para PARENT="Body title"/>
+            <para/>
+            <ITEXT CH="HC-SR04"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="1kΩ Resistor"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="2kΩ Resistor"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Jumper Wires"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Ultrasonic Distance Sensors"/>
+            <para PARENT="Body title"/>
+            <para/>
+            <ITEXT CH="Sound consists of oscillating waves through a medium (such as air) with the pitch being determined by the closeness of those waves to each other, defined as the frequency. Only some of the sound spectrum (the range of sound wave frequencies) is audible to the human ear, defined as the “Acoustic” range. Very low frequency sound below Acoustic is defined as “Infrasound”, with high frequency sounds above, called “Ultrasound”. Ultrasonic sensors are designed to sense object proximity or range using ultrasound reflection, similar to radar, to calculate the time it takes to reflect ultrasound waves between the sensor and a solid object. Ultrasound is mainly used because it’s inaudible to the human ear and is relatively accurate within short distances. You could of course use Acoustic sound for this purpose, but you would have a noisy robot, beeping every few seconds."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="A basic ultrasonic sensor consists of one or more ultrasonic transmitters (basically speakers), a receiver, and a control circuit. The transmitters emit a high frequency ultrasonic sound, which bounce off any nearby solid objects. Some of that ultrasonic noise is reflected and detected by the receiver on the sensor. That return signal is then processed by the control circuit to calculate the time difference between the signal being transmitted and received. This time can subsequently be used, along with some clever math, to calculate the distance between the sensor and the reflecting object."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="The HC-SR04 Ultrasonic sensor we’ll be using in this tutorial for the Raspberry Pi has four pins: ground (GND), Echo Pulse Output (ECHO), Trigger Pulse Input (TRIG), and 5V Supply (Vcc). We power the module using Vcc, ground it using GND, and use our Raspberry Pi to send an input signal to TRIG, which triggers the sensor to send an ultrasonic pulse. The pulse waves bounce off any nearby objects and some are reflected back to the sensor. The sensor detects these return waves and measures the time between the trigger and returned pulse, and then sends a 5V signal on the ECHO pin."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="ECHO will be “low” (0V) until the sensor is triggered when it receives the echo pulse. Once a return pulse has been located ECHO is set “high” (5V) for the duration of that pulse. Pulse duration is the full time between the sensor outputting an ultrasonic pulse, and the return pulse being detected by the sensor receiver. Our Python script must therefore measure the pulse duration and then calculate distance from this."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="IMPORTANT. The sensor output signal (ECHO) on the HC-SR04 is rated at 5V. However, the input pin on the Raspberry Pi GPIO is rated at 3.3V. Sending a 5V signal into that unprotected 3.3V input port could damage your GPIO pins, which is something we want to avoid! We’ll need to use a small voltage divider circuit, consisting of two resistors, to lower the sensor output voltage to something our Raspberry Pi can handle."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Voltage Dividers"/>
+            <para PARENT="Body title"/>
+            <para/>
+            <ITEXT CH="A voltage divider consists of two resistors (R1 and R2) in series connected to an input voltage (Vin), which needs to be reduced to our output voltage (Vout). In our circuit, Vin will be ECHO, which needs to be decreased from 5V to our Vout of 3.3V."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="The following circuit and simple equation can be applied to many applications where a voltage needs to be reduced. If you don’t want to learn the techy bit, just grab 1 x 1kΩ and 1 x 2kΩ resistor."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Without getting too deep into the math side, we only actually need to calculate one resistor value, as it’s the dividing ratio that’s important. We know our input voltage (5V), and our required output voltage (3.3V), and we can use any combination of resistors to achieve the reduction. I happen to have a bunch of extra 1kΩ resistors, so I decided to use one of these in the circuit as R1."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Plugging our values in, this would be the following:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="So, we’ll use a 1kΩ for R1 and a 2kΩ resistor as R2!"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Assemble the Circuit"/>
+            <para PARENT="Body title"/>
+            <para/>
+            <ITEXT CH="We’ll be using four pins on the Raspberry Pi for this project: GPIO 5V [Pin 2]; Vcc (5V Power), GPIO GND [Pin 6]; GND (0V Ground), GPIO 23 [Pin 16]; TRIG (GPIO Output) and GPIO 24 [Pin 18]; ECHO (GPIO Input)"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows: Red; Vcc, Blue; TRIG, Yellow; ECHO and Black; GND."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="2. Plug Vcc into the positive rail of your breadboard, and plug GND into your negative rail."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="3. Plug GPIO 5V [Pin 2] into the positive rail, and GPIO GND [Pin 6] into the negative rail."/>
+            <nbspace/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="4. Plug TRIG into a blank rail, and plug that rail into GPIO 23 [Pin 16]. (You can plug TRIG directly into GPIO 23 if you want). I personally just like to do everything on a breadboard!"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="5. Plug ECHO into a blank rail, link another blank rail using R1 (1kΩ resistor)"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="6. Link your R1 rail with the GND rail using R2 (2kΩ resistor). Leave a space between the two resistors."/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="7. Add GPIO 24 [Pin 18] to the rail with your R1 (1kΩ resistor). This GPIO pin needs to sit between R1 and R2"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="That's it! Our HC-SR04 sensor is connected to our Raspberry Pi!"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="Sensing with Python"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="In previous tutorials we’ve outlined the integration of simple sensors and switches with the Raspberry Pi. These components have had a simple on/off or high/low output, which is sensed by the Raspberry Pi. Our PIR movement sensor tutorial in Issue 21, for example, simply says “Yes, I’ve detected movement”."/>
+            <ITEXT CH="Now that we’ve hooked our Ultrasonic Sensor up to our Pi, we need to program a Python script to detect distance!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="So, what happens when we connect a more advanced sensor and want to read more complex data? In this tutorial we will connect a 1-Wire digital thermometer sensor and program our Raspberry Pi to read the output of the temperature it senses!"/>
+            <ITEXT CH="The Ultrasonic sensor output (ECHO) will always output low (0V) unless it’s been triggered in which case it will output 5V (3.3V with our voltage divider!). We therefore need to set one GPIO pin as an output, to trigger the sensor, and one as an input to detect the ECHO voltage change."/>
             <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="First, import the Python GPIO library, import our time library (so we make our Pi wait between steps) and set our GPIO pin numbering:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="In 1-Wire sensors all data is sent down one wire, which makes it great for microcontrollers and computers, such as the Raspberry Pi, as it only requires one GPIO pin for sensing. In addition to this, most 1-Wire sensors will come with a unique serial code (more on this later) which means you can connect multiple units without them interfering with each other."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The sensor we’re going to use in this tutorial is the Maxim DS18B20+ Programmable Resolution 1-Wire Digital Thermometer. The DS18B20+ has a similar layout to transistors, called the TO-92 package, with three pins: GND, Data (DQ) and 3.3V power line (V"/>
-            <ITEXT FONT="FreeSans Regular" FEATURES="inherit subscript" CH="DD"/>
-            <ITEXT FONT="FreeSans Regular" CH="). You also need some jumper wires, a breadboard and a 4.7kΩ (or 10kΩ) resistor."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The resistor in this setup is used as a 'pull-up' for the data-line, and should be connected between the DQ and V"/>
-            <ITEXT FONT="FreeSans Regular" FEATURES="inherit subscript" CH="DD"/>
-            <ITEXT FONT="FreeSans Regular" CH=" line. It ensures that the 1-Wire data line is at a defined logic level and limits interference from electrical noise if our pin was left floating. We are also going to use GPIO 4 [Pin 7] as the driver pin for sensing the thermometer output. This is the dedicated pin for 1-Wire GPIO sensing."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Hooking it up"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="1. Connect GPIO GND [Pin 6] on the Raspberry Pi to the negative rail on the breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="2. Connect GPIO 3.3V [Pin 1] on the Raspberry Pi to the positive rail on the breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="3. Plug the DS18B20+ into your breadboard, ensuring that all three pins are in different rows. Familiarise yourself with the pin layout, as it is quite easy to hook it up backwards!"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="4. Connect DS18B20+ GND [Pin 1] to the negative rail of the breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="5. Connect DS18B20+ V"/>
-            <ITEXT FONT="FreeSans Regular" FEATURES="inherit subscript" CH="DD"/>
-            <ITEXT FONT="FreeSans Regular" CH=" [Pin 3] to the positive rail of the breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="6. Place your 4.7kΩ resistor between DS18B20+ DQ [Pin 2] and a free row on your breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="7. Connect that free end of the 4.7kΩ resistor to the positive rail of the breadboard."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="8. Finally, connect DS18B20+ DQ [Pin 2] to GPIO 4 [Pin 7] with a jumper wire."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="That’s it! We are now ready for some programming!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Programming"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="With a little set up, the DS18B20+ can be read directly from the command line without the need for any Python programming. However, this requires us to input a command every time we want to know the temperature reading. In order to introduce some concepts for 1-Wire interfacing, we will access it via the command line first and then we will write a Python program which will read the temperature automatically at set time intervals."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The Raspberry Pi comes equipped with a range of drivers for interfacing. However, it’s not feasible to load every driver when the system boots, as it increases the boot time significantly and uses a considerable amount of system resources for redundant processes. These drivers are therefore stored as loadable modules and the command "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="modprobe"/>
-            <ITEXT FONT="FreeSans Regular" CH=" is employed to boot them into the Linux kernel when they’re required."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The following two commands load the 1-Wire and thermometer drivers on GPIO 4"/>
-            <ITEXT CH=". At the command line enter:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" sudo modprobe w1-gpio"/>
+            <para/>
+            <ITEXT CH="import RPi.GPIO as GPIO"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" sudo modprobe w1-therm"/>
+            <ITEXT CH="import time"/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="We then need to change directory to our 1-Wire device folder and list the devices in order to ensure that our thermometer has loaded correctl"/>
-            <ITEXT CH="y. Enter:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" cd /sys/bus/w1/devices"/>
+            <ITEXT CH="GPIO.setmode(GPIO.BCM)"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" ls"/>
+            <para/>
+            <ITEXT CH="Next, we need to name our input and output pins, so that we can refer to it later in our Python code. We’ll name our output pin (which triggers the sensor) GPIO 23 [Pin 16] as TRIG, and our input pin (which reads the return signal from the sensor):"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="GPIO 24 [Pin 18] as ECHO."/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="In the device list, your sensor should be listed as a series of numbers and letters. In my case, the device is registered as 28-000005e2fdc3. You then need to access the sensor with the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="cd"/>
-            <ITEXT FONT="FreeSans Regular" CH=" command, replacing the serial number with that from your own sensor"/>
-            <ITEXT CH=". Enter:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" cd 28-000005e2fdc3"/>
+            <ITEXT CH="TRIG = 23"/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The sensor periodically writes to the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="w1_slave"/>
-            <ITEXT FONT="FreeSans Regular" CH=" file. We can use the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="cat"/>
-            <ITEXT FONT="FreeSans Regular" CH=" command to read it"/>
-            <ITEXT CH=":"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" cat w1_slave"/>
+            <ITEXT CH="ECHO = 24"/>
             <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="We’ll then print a message to let the user know that distance measurement is in progress:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="This yields the following two lines of text, with the output "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="t"/>
-            <ITEXT FONT="FreeSans Regular" CH=" showing the temperature in milli-degrees Celsius. Divide this number by 1000 to get the temperature in degrees, e.g. the temperature reading we’ve received is 23.125 degrees Celsius."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" 72 01 4b 46 7f ff 0e 10 57 : crc=57 YES"/>
+            <para/>
+            <ITEXT CH="print &quot;Distance Measurement In Progress&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" 72 01 4b 46 7f ff 0e 10 57 t=23125"/>
+            <para/>
+            <ITEXT CH="Next, set your two GPIO ports as either inputs or outputs as defined previously:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="GPIO.setup(TRIG,GPIO.OUT)"/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="In terms of reading from the sensor, this is all that’s required from the command line. Try holding onto the thermometer for a few seconds and then take another reading. Spot the increase? With these commands in mind, we can now write a Python program to output our temperature data automatically."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Python program"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="Our first step is to import the required modules. The os module allows us to enable our 1-Wire drivers and interface with the sensor. The time module allows the Raspberry Pi to define time, and enables the use of time periods in our code."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" import os"/>
+            <ITEXT CH="GPIO.setup(ECHO,GPIO.IN)"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" import time"/>
+            <para/>
+            <ITEXT CH="Then, ensure that the Trigger pin is set low, and give the sensor a second to settle:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="GPIO.output(TRIG, False)"/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="We then need to load our drivers:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" os.system('modprobe w1-gpio')"/>
+            <ITEXT CH="print &quot;Waiting For Sensor To Settle&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" os.system('modprobe w1-therm')"/>
+            <ITEXT CH="time.sleep(2)"/>
             <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="The HC-SR04 sensor requires a short 10uS pulse to trigger the module, which will cause the sensor to start the ranging program (8 ultrasound bursts at 40 kHz) in order to obtain an echo response. So, to create our trigger pulse, we set out trigger pin high for 10uS then set it low again:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="The next step is to define the sensor’s output file (the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="w1_slave"/>
-            <ITEXT FONT="FreeSans Regular" CH=" file) as defined above. Remember to utilise your own temperature sensor’s serial code!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" temp_sensor = '/sys/bus/w1/devices/28-000005e2"/>
+            <para/>
+            <ITEXT CH="GPIO.output(TRIG, True)"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" fdc3/w1_slave'"/>
+            <ITEXT CH="time.sleep(0.00001)"/>
             <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="We then need to define a variable for our raw temperature value, "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="temp_raw"/>
-            <ITEXT FONT="FreeSans Regular" CH="; the two lines output by the sensor, as demonstrated by the command line example. We could simply print this statement now, however we are going to process it into something more usable. To do this we open, read, record and then close the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="temp_sensor"/>
-            <ITEXT FONT="FreeSans Regular" CH=" file. We use the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="return"/>
-            <ITEXT FONT="FreeSans Regular" CH=" function here, in order to recall this data at a later stage in our code."/>
+            <ITEXT CH="GPIO.output(TRIG, False)"/>
+            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="Now that we’ve sent our pulse signal we need to listen to our input pin, which is connected to ECHO. The sensor sets ECHO to high for the amount of time it takes for the pulse to go and come back, so our code therefore needs to measure the amount of time that the ECHO pin stays high. We use the “while” string to ensure that each signal timestamp is recorded in the correct order."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" def temp_raw():"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   f = open(temp_sensor, 'r')"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   lines = f.readlines()"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   f.close()"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   return lines"/>
-            <para PARENT="Code"/>
+            <ITEXT CH="The time.time() function will record the latest timestamp for a given condition. For example, if a pin goes from low to high, and we’re recording the low condition using the time.time() function, the recorded timestamp will be the latest time at which that pin was low."/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="First, we check our variable from the previous function for any errors. If you study our original output, as shown in the command line example, we get two lines of output code. The first line was &quot;72 01 4b 46 7f ff 0e 10 57 : crc=57 YES&quot;. We strip this line, except for the last three characters, and check for the “YES” signal, which indicates a successful temperature reading from the sensor. In Python, not-equal is defined as “!=”, so here we are saying that while the reading does not equal &quot;YES&quot;, sleep for 0.2s and repeat."/>
+            <para/>
+            <ITEXT CH="Our first step must therefore be to record the last low timestamp for ECHO (pulse_start) e.g. just before the return signal is received and the pin goes high:"/>
             <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="while GPIO.input(ECHO)==0:"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="    pulse_start = time.time()"/>
+            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="Once a signal is received, the value changes from low (0) to high (1), and the signal will remain high for the duration of the echo pulse. We therefore also need the last high timestamp for ECHO (pulse_end):"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" def read_temp():"/>
+            <para/>
+            <ITEXT CH="while GPIO.input(ECHO)==1:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="   lines = temp_raw()"/>
+            <ITEXT CH="    pulse_end = time.time()"/>
             <para PARENT="Code"/>
-            <ITEXT CH="   while lines[0].strip()[-3:] != 'YES':"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     time.sleep(0.2)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     lines = temp_raw()"/>
-            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="We can now calculate the difference between the two recorded timestamps, and hence the duration of pulse (pulse_duration):"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="Once a YES signal has been received, we proceed to our second line of output code. In our example this was &quot;72 01 4b 46 7f ff 0e 10 57 t=23125&quot;. We find our temperature output “t=”, check it for errors and strip the output of the “t=” phrase to leave just the temperature data. Finally we run two calculations to give us the temperature in Celsius and Fahrenheit."/>
+            <para/>
+            <ITEXT CH="pulse_duration = pulse_end - pulse_start"/>
+            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="With the time it takes for the signal to travel to an object and back again, we can calculate the distance using the following formula."/>
             <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="The speed of sound is variable, depending on what medium it’s travelling through, in addition to the temperature of that medium. However, some clever physicists have calculated the speed of sound at sea level so we’ll take our baseline as the 343m/s. If you’re trying to measure distance through water, this is where you’re falling down – make sure you’re using the right speed of sound!"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="   temp_output = lines[1].find('t=')"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   if temp_output != -1:"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     temp_string = lines[1].strip()[temp_output"/>
-            <para PARENT="Code"/>
-            <ITEXT CH=" +2:]"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     temp_c = float(temp_string) / 1000.0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     temp_f = temp_c * 9.0 / 5.0 + 32.0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="     return temp_c, temp_f"/>
-            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="We also need to divide our time by two because what we’ve calculated above is actually the time it takes for the ultrasonic pulse to travel the distance to the object and back again. We simply want the distance to the object! We can simplify the calculation to be completed in our Python script as follows:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="Finally, we loop our process and tell it to output our temperature data every 1 second."/>
+            <para/>
+            <ITEXT CH="We can plug this calculation into our Python script:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="distance = pulse_duration x 17150"/>
+            <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="Now we need to round our distance to 2 decimal places (for neatness!):"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" while True:"/>
+            <ITEXT CH="distance = round(distance, 2)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="   print(read_temp())"/>
+            <para/>
+            <ITEXT CH="Then, we print the distance. The below command will print the word “Distance:” followed by the distance variable, followed by the unit “cm”:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="print &quot;Distance:&quot;,distance,&quot;cm&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT CH="   time.sleep(1)"/>
+            <para/>
+            <ITEXT CH="Finally, we clean our GPIO pins to ensure that all inputs/outputs are reset:"/>
+            <para PARENT="Body text"/>
+            <para/>
+            <ITEXT CH="GPIO.cleanup()"/>
             <para PARENT="Code"/>
+            <para/>
+            <ITEXT CH="Save your python script, I called ours &quot;range_sensor.py&quot;, and run it using the following command. Running a root (sudo), is important with this script:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="That’s our code! A screenshot of the complete program is shown below. Save your program and run it to display the temperature output"/>
-            <ITEXT CH=", as shown on the right."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Multiple sensors"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="DS18B20+ sensors can be connected in parallel and accessed using their unique serial number. Our Python example can be edited to access and read from multiple sensors!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="As always, the DS18B20+ sensor and all components are available separately or as part of our workshop kit from the ModMyPi website"/>
-            <ITEXT FONTSIZE="12" CH=" "/>
-            <ITEXT FONTSIZE="12" FCOLOR="Blue" CH="http://www.modmypi.com"/>
-            <ITEXT FONTSIZE="12" CH=". "/>
+            <para/>
+            <ITEXT CH="The sensor will settle for a few seconds, and then record your distance!"/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -539,7 +536,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347122192383" YPOS="2720.42651367188" WIDTH="538.588317871094" HEIGHT="289.323486328125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 289.323 538.588 289.323 538.588 289.323 538.588 289.323 0 289.323 0 289.323 0 289.323 0 289.323 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 289.323 538.588 289.323 538.588 289.323 538.588 289.323 0 289.323 0 289.323 0 289.323 0 289.323 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="37">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347122192383" YPOS="2720.42651367188" WIDTH="538.588317871094" HEIGHT="677.82348632812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 677.823 538.588 677.823 538.588 677.823 538.588 677.823 0 677.823 0 677.823 0 677.823 0 677.823 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 677.823 538.588 677.823 538.588 677.823 538.588 677.823 0 677.823 0 677.823 0 677.823 0 677.823 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="37">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="186.19937008126" YPOS="3419.68511219921" WIDTH="159.2449341" HEIGHT="68.03149414" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 159.245 0 159.245 0 159.245 0 159.245 0 159.245 68.0315 159.245 68.0315 159.245 68.0315 159.245 68.0315 0 68.0315 0 68.0315 0 68.0315 0 68.0315 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 159.245 0 159.245 0 159.245 0 159.245 0 159.245 68.0315 159.245 68.0315 159.245 68.0315 159.245 68.0315 0 68.0315 0 68.0315 0 68.0315 0 68.0315 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -553,10 +550,6 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.34709167126" YPOS="3407.02889759921" WIDTH="104.1529083" HEIGHT="72.18395996" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.0979429578833107" LOCALSCY="0.0979429578833107" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="LOGO_small.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 104.153 0 104.153 0 104.153 0 104.153 0 104.153 72.184 104.153 72.184 104.153 72.184 104.153 72.184 0 72.184 0 72.184 0 72.184 0 72.184 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 104.153 0 104.153 0 104.153 0 104.153 0 104.153 72.184 104.153 72.184 104.153 72.184 104.153 72.184 0 72.184 0 72.184 0 72.184 0 72.184 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="206.671335535725" YPOS="3017.16566959892" WIDTH="384" HEIGHT="371.86181640625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.48" LOCALSCY="0.48" LOCALX="-7.30899915405795e-06" LOCALY="-62.2878387531377" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Fig5.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 384 0 384 0 384 0 384 0 384 371.862 384 371.862 384 371.862 384 371.862 0 371.862 0 371.862 0 371.862 0 371.862 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 384 0 384 0 384 0 384 0 384 371.862 384 371.862 384 371.862 384 371.862 0 371.862 0 371.862 0 371.862 0 371.862 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
